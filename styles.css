@@ -1,0 +1,26 @@
+body {
+    margin: 80px 200px 80px 200px;
+    background-color: #f7f4f2;
+    font-family: "Roboto", sans-serif;
+}
+
+p, ul {
+    color: #1b3f36;
+}
+
+h1 {
+    color: #32675a;
+}
+
+h3 {
+    color: #57aa95;
+}
+
+a {
+    text-decoration: none;
+    color: #1b3f36;
+}
+
+a:hover {
+    color:#db903f
+}

@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint 7 / Documentación</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>
+        ¿Qué diferencia a JavaScript de cualquier otro lenguaje de programación?
+    </h1>
+
+    <br>
+
+    <p>
+        JavaScript se diferencia fundamentalmente de otros lenguajes de programaci&oacute;n por ser el &uacute;nico que tiene capacidad de ser <strong>compilado directamente en el navegador web</strong>. Esto permite que se pueda interactuar con la p&aacute;gina web a tiempo real, haciendo que las p&aacute;ginas sean m&aacute;s din&aacute;micas y responsivas.
+    </p>
+    <p>
+        Sus caracter&iacute;sticas m&aacute;s representativas son:
+    </p>
+    <ul>
+        <li>Lenguaje <strong>interpretado</strong>, no complilado: El c&oacute;digo se lee y ejecuta l&iacute;nea por l&iacute;nea, en lugar de ser compilado en un programa ejecutable como en los lenguajes compilados. La ventaja de la interpretaci&oacute;n es que puedes corregir errores y ajustar el comportamiento del c&oacute;digo mientras se ejecuta.</li>
+        <li>Tipado <strong>din&aacute;mico</strong>: En JavaScript, las variables no tienen un tipo de dato fijo, pueden contener cualquier tipo de dato. Esto da mucha flexibilidad para trabajar con diferentes tipos de datos sin necesidad de definiciones r&iacute;gidas. Sin embargo, es importante hay que ser cuidadoso para evitar confusiones y errores.</li>
+        <li><strong>Funciones</strong> de primera clase: Las funciones en JavaScript no solo ejecutan tareas, sino que tambi&eacute;n pueden ser guardadas en variables, se pueden enviar a otras funciones como argumentos, e incluso crear nuevas funciones a partir de otras existentes. Esta flexibilidad permite un estilo de programaci&oacute;n m&aacute;s funcional.</li>
+    </ul>
+    <p>
+        Adem&aacute;s, muchas de las aplicaciones m&aacute;s populares del mundo, como Twitter, Gmail y Facebook, est&aacute;n creadas con c&oacute;digo JavaScript. A pesar de que se pueda pensar que JavaScript solo sirve para animaciones web simples, estas empresas aprovechan potentes frameworks de Javascript, en esencia conjuntos de herramientas que ellas mismas crearon, para manejar tareas complejas y construir experiencias de usuario din&aacute;micas.&nbsp;<br><br>La versatilidad de JavaScript va m&aacute;s all&aacute; del desarrollo web. Tambi&eacute;n es una excelente opci&oacute;n para aplicaciones m&oacute;viles a trav&eacute;s de frameworks como React Native, los desarrolladores pueden usar sus habilidades de JavaScript para crear aplicaciones para iOS y Android, ahorrando tiempo y recursos.
+    </p>
+    <p>
+        Incluso en tu flujo de trabajo diario, JavaScript puede ser una herramienta &uacute;til. Permite escribir peque&ntilde;os scripts para automatizar tareas repetitivas, como hacer clic en un bot&oacute;n varias veces, agilizando tus tareas diarias.
+    </p>
+    
+    <h3>Enlaces de interés</h3>
+    <p>
+        <a href="https://www.w3schools.com/js/">W3Schools - JavaScript Tutorial</a>
+        <br>
+        <a href="https://reactnative.dev/docs/getting-started">React Native - Introduction</a>
+    </p>
+
+    <br>    
+    <br>
+
+    <h1>
+        ¿Cuáles son algunos tipos de datos JS?
+    </h1>
+
+    <br>
+
+    <p>
+        JavaScript admite varios tipos de datos para almacenar y representaci&oacute;n informaci&oacute;n. Algunos de los m&aacute;s comunes son:
+    </p>
+    <p><strong>Primitivos:</strong></p>
+    <ul>
+        <li>Boolean: Valores TRUE o FALSE. Se puede usar para tomar decisiones en tu c&oacute;digo.</li>
+        <li>Number: N&uacute;meros enteros (1, 2, 3) y decimales (3.14, 8.45). Se puede usar para realizar c&aacute;lculos, como sumar, restar y multiplicar.</li>
+        <li>String: Cadenas de texto (&quot;Hola, mundo&quot;). Se puede usar para almacenar texto, como nombres, direcciones y mensajes.</li>
+        <li>Null: Un valor especial que indica la ausencia de un valor, valor nulo o vac&iacute;o.</li>
+        <li>Undefined: Un valor especial que indica que una variable no ha sido inicializada.</li>
+        <li>BigInt: N&uacute;meros enteros grandes que no caben en el tipo Number. Se a&ntilde;ade una &apos;n&apos; al final del n&uacute;mero o se usa la funci&oacute;n BigInt().</li>
+        <li>Symbol: Valores &uacute;nicos e inmutables que se utilizan como identificadores.&nbsp;</li>
+    </ul>
+    <p><strong>No primitivos:</strong></p>
+    <ul>
+        <li>Object: Colecciones de datos que pueden contener propiedades y m&eacute;todos. Puede servir, por ejemplo, para almacenar informaci&oacute;n de un usuario o una lista de productos.</li>
+        <li>Array: Un tipo especial de objeto que puede almacenar una lista ordenada de valores, accesible por &iacute;ndice. Por ejemplo, los nombres de los jugadores de un equipo de f&uacute;tbol.</li>
+        <li>Function: Bloques de c&oacute;digo que se pueden ejecutar para realizar una tarea espec&iacute;fica. Por ejemplo, calcular el total de una compra.</li>
+    </ul>
+    <p>
+        El tipo de dato de una variable se puede determinar usando el operador <em>typeof</em>. Adem&aacute;s, se puede convertir de un tipo de dato a otro usando diferentes m&eacute;todos (se sugiere revisar informaci&oacute;n sobre el <em>type casting).&nbsp;</em>Recuerda que es importante elegir el tipo de dato adecuado para cada variable en tu c&oacute;digo.<br>
+    </p>
+    <h3>Ejercicio recomendado</h3>
+        <p>
+            El objetivo del siguiente ejercicio es practicar el uso de diferentes tipos de datos en JavaScript. Para ello crea un archivo HTML con un script JS y declara las siguientes variables:
+        </p>
+            <ul style="list-style-type: circle;">
+                <li>nombre (string): Tu nombre.</li>
+                <li>edad (number): Tu edad.</li>
+                <li>estudiante (boolean): True si eres estudiante, False si no lo eres.</li>
+                <li>hobbies (array): Una lista de tus hobbies.</li>
+                <li>mascota (object): Un objeto con las propiedades nombre (string) y especie (string) de tu mascota.</li>
+            </ul>
+        <p>
+            Despu&eacute;s imprime el valor de cada variable en la consola utilizando console.log().
+        </p>
+    </p>
+    <h3>Enlaces de interés</h3>
+    <p>
+        <a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Grammar_and_types">MDN Web Docs: Tipos de datos en JavaScript</a>
+        <br>
+        <a href="https://www.w3schools.com/js/js_datatypes.asp">W3Schools: Tipos de datos en JavaScript</a>
+    </p>
+
+    <br>    
+    <br>
+
+    <h1>
+        ¿Cuáles son las tres funciones de String en JS?
+    </h1>
+
+    <br>
+
+    <p>
+        Las funciones de string son m&eacute;todos que se invocan sobre la variable que contiene la cadena. Estas funciones est&aacute;n integradas en JavaScript y permiten manipular y trabajar texto de diferentes maneras. Las tres m&aacute;s com&uacute;nmente utilizadas son la siguientes:
+    </p>
+    <ul>
+        <li><strong>length</strong>: Es una propiedad, no una funci&oacute;n, que devuelve el n&uacute;mero de caracteres que contiene la cadena. Tambi&eacute;n se puede utilizar con los array.</li>
+    </ul>
+    <p style="text-align: left;"><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>const str = &quot;Hola, mundo&quot;;<br>const longitudCadena = str.lenght;<br></span><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>console.log(longitudCadena);</span><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(255, 255, 255); background-color: rgb(27, 63, 54);'>&nbsp;</span><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(87, 170, 149); background-color: rgb(27, 63, 54);'>//</span><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(255, 255, 255); background-color: rgb(27, 63, 54);'>&nbsp;</span><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(87, 170, 149); background-color: rgb(27, 63, 54);'>Imprime 10</span></p>
+    <ul>
+        <li style="text-align: left;"><strong>indexOf()</strong>: Se utiliza para buscar la primera aparici&oacute;n de una subcadena (searchValue) dentro de la cadena original (str) y devuelve su posici&oacute;n (&iacute;ndice) dentro de la cadena. Si la subcadena no se encuentra, la funci&oacute;n devuelve -1.</li>
+    </ul>
+    <p style="text-align: left;"><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>const str = &quot;Hola, mundo&quot;;<br>const indice = str.indexOf(&quot;mundo&quot;);<br></span><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>console.log(indice);</span><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(255, 255, 255); background-color: rgb(27, 63, 54);'>&nbsp;</span><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(87, 170, 149); background-color: rgb(27, 63, 54);'>//</span><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(255, 255, 255); background-color: rgb(27, 63, 54);'>&nbsp;</span><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(87, 170, 149); background-color: rgb(27, 63, 54);'>Imprime 5</span></p>
+    <ul>
+        <li style="text-align: left;"><strong>toUpperCase() y toLowerCase()</strong>: Transforman todo el contenido de la cadena a may&uacute;sculas o min&uacute;sculas, respectivamente.&nbsp;</li>
+    </ul>
+    <p style="text-align: left;"><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>const str = &quot;Hola, mundo&quot;;<br>const strMayusculas = str.UpperCase();<br></span><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>console.log(strMayusculas);</span><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(255, 255, 255); background-color: rgb(27, 63, 54);'>&nbsp;</span><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(87, 170, 149); background-color: rgb(27, 63, 54);'>//</span><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(255, 255, 255); background-color: rgb(27, 63, 54);'>&nbsp;</span><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(87, 170, 149); background-color: rgb(27, 63, 54);'>Imprime &quot;HOLA, MUNDO&quot;</span></p>
+    <p>
+        Adem&aacute;s de las anteriores, es importante conocer que existen muchas otras funciones sumamente &uacute;tiles para tratar los datos de tipo string. A continuaci&oacute;n se mencionan varias:
+    </p>
+    <ul style="list-style-type: circle;">
+        <li>charAT(): Obtiene el caracter en la posici&oacute;n indicada por el &iacute;ndice.</li>
+        <li>trim(): Elimina los espacios en blanco al principio y final de la cadena.</li>
+        <li>includes(): Comprueba si la cadena contiene una subcadena espec&iacute;fica. Devuelve el valor verdadero o falso.</li>
+        <li>replace(): Reemplaza una subcadena por otra dentro de la cadena original.</li>
+        <li>slice(): Extrae una subcadena de la cadena original especificando el &iacute;ndice de inicio y fin.</li>
+        <li>split(): Divide la cadena en un array de subcadenas separadas por un caracter o una cadena espec&iacute;fica.</li>
+        <li>startsWith() y endsWith(): Comprueba si la cadena comienza o acaba con una subcadena espec&iacute;fica. Devuelve valor verdadero o falso.</li>
+        <li>repeat(): Repite la cadena un n&uacute;mero espec&iacute;fico de veces.</li>
+        <li>concat(): Concatena dos o m&aacute;s cadenas.</li>
+    </ul>
+    
+    <h3>Enlace de interés</h3>
+    <p>
+        <a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String">Lista completa de las funciones de string</a>
+    </p>
+
+    <br>    
+    <br>
+
+    <h1>¿Qué es un condicional?</h1>
+    <br>
+    <p>
+        Las condicionales son una estructura de control que nos permiten tomar decisiones y controlar el flujo de un programa dependiendo de si una condici&oacute;n se cumple o no.
+    </p>
+    <p>
+        <strong>Tipos de condicionales:<br></strong>
+    </p>
+    <ul style="list-style-type: circle;">
+        <li>if: Se utiliza para evaluar una &uacute;nica condici&oacute;n.</li>
+        <li>else if: Se utiliza para evaluar otra condici&oacute;n si la primera no se cumple.</li>
+        <li>else: Se utiliza como &uacute;ltimo recurso, si ninguna de las condiciones anteriores se cumple.</li>
+    </ul>
+    <p>Para comparar valores, se utilizan los siguientes operadores:</p>
+    <ul>
+        <li>=== : Igual en valor y tipo de dato.</li>
+        <li>!== : Diferente en valor o tipo de dato.</li>
+        <li>&gt;= : Igual o mayor que.</li>
+        <li>&lt;= : Igual o menor que.</li>
+    </ul>
+    <p>
+        Para crear reglas m&aacute;s complejas, se pueden combinar condicionales y utilizar operadores como <strong>and&nbsp;</strong>(&amp;&amp;) o <strong>or&nbsp;</strong>(||).
+    </p>
+
+    <h3>Ejemplo</h3>
+    <p>Imagina que quieres saber si una persona puede votar. Para verificar si es igual o mayor de edad, puedes usar una condicional, y as&iacute; saber si tiene derecho al voto.</p>
+    <p style="text-align: left;"><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>const edad = 17;</span><br><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>if (edad &gt;= 18) {</span><br><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>&nbsp; &nbsp; console.log(&quot;Puedes votar&quot;);</span><br><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>} else {</span><br><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>&nbsp; &nbsp; console.log(&quot;Lo siento, a&uacute;n no puedes votar&quot;);</span></p>
+    <p style="text-align: left;"><span style="text-align: inherit;">Se define una variable <strong>edad</strong> y se le asigna el valor de <strong>17</strong>. Se inicia una declaraci&oacute;n condicional con la palabra clave <strong>if</strong> seguida de la condici&oacute;n entre par&eacute;ntesis. Esta condici&oacute;n verifica si la <strong>edad</strong> es mayor o igual a <strong>18</strong>.</span><br><span style="text-align: inherit;">Si la condici&oacute;n es verdadera, se ejecuta el bloque de c&oacute;digo dentro del primer par de llaves, diciendo que la persona puede votar.&nbsp;</span><br><span style="text-align: inherit;">Si la condici&oacute;n en el <strong>if&nbsp;</strong>es falsa, se ejecuta el bloque dentro del <strong>else</strong>, indicando que a&uacute;n no puede votar.</span></p>
+    <h3>Ejercicio recomendado</h3>
+    <p>Crea una variable que almacene la calificaci&oacute;n de un examen.</p>
+    <p>
+        Usa condicionales para mostrar un mensaje diferente dependiendo de la calificaci&oacute;n:
+    </p>
+    <ul>
+        <li>Si la calificaci&oacute;n es mayor o igual a 90, mostrar &quot;Excelente!&quot;.</li>
+        <li>Si la calificaci&oacute;n est&aacute; entre 70 y 89, mostrar &quot;Buen trabajo!&quot;.</li>
+        <li>Si la calificaci&oacute;n est&aacute; entre 50 y 69, mostrar &quot;Aprobado.&quot;.</li>
+        <li>Si la calificaci&oacute;n es menor a 50, mostrar &quot;Desafortunadamente, no has aprobado.&quot;.</li>
+    </ul>
+
+    <h3>Enlace de interés</h3>
+    <p>
+        <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals">Documentación sobre condicionales</a>
+    </p>
+
+    <br>    
+    <br>
+
+    <h1>¿Qué es un operador ternario?</h1>
+    <br>
+    <p>
+        El operador ternario, o condicional ternario, es una herramienta poderosa que permite tomar decisiones dentro de una sola l&iacute;nea de c&oacute;digo. Se utiliza para evaluar una condici&oacute;n y devolver uno de dos valores dependiendo del resultado.
+    </p>
+    <p>
+        Su sintaxis es la siguiente:<br><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>condicion ? valorSiVerdadero : valorSiFalso</span>
+    </p>
+    <p>
+        <span>Siendo la condici&oacute;n, la expresi&oacute;n que se eval&uacute;a, el valorSiVerdadero el que se devuelve si la condici&oacute;n es <strong>true</strong> y valorSiFalso, si la condici&oacute;n es <strong>false</strong>.</span>
+    </p>
+    <p>
+        <span>Las principales ventajas del operador ternario son que permite escribir c&oacute;digo m&aacute;s compacto y legible al estar expresado en una &uacute;nica l&iacute;nea. Supone una alternativa sencilla a las estructuras <strong>if / else</strong> cuando la decisiones son simples, siendo &uacute;til para asignar valores a variables dependiendo de una condici&oacute;n.&nbsp;</span><br><span>Se recomienda no hacer condicionales compuestas utilizando el operador ternario, pero en caso de hacerla, resulta &uacute;til encapsular con par&eacute;ntesis la condiciones.</span>
+    </p>
+    <h3>Ejemplo</h3>
+    <p>
+        <span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>const edad = 18;</span><br><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>const mensaje = edad &gt;= 18 ? &quot;Puedes votar&quot; : &quot;Lo siento, no puedes votar&quot;;</span></span><br><br>Este ejemplo es el mismo que el explicado en el apartado anterior sobre las condicionales. Su estructura es mucho m&aacute;s sencilla al utilizar el operador ternario.
+    </p>
+    <h3>Ejercicio recomendado</h3>
+    <p>
+        Dada la siguiente condicional, convi&eacute;rtela en un operador ternario:
+    </p>
+    <p>
+        <span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>let numero = 10;</span><br><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>let resultado;</span><br><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>if (numero &gt; 0) {</span><br><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>&nbsp; &nbsp; resultado = &quot;Positivo&quot;;</span><br><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>} else {</span><br><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>&nbsp; &nbsp; resultado = &quot;Negativo&quot;;</span><br><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>}</span>
+    </p>
+    <h3>Enlaces de interés</h3>
+    <p>
+        <a href="https://www.w3schools.com/java/java_conditions_shorthand.asp">W3Schools - Ternary Operator</a>  
+        <br>
+        <a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Conditional_operator">Documentación del operador ternario</a>  
+    </p>
+
+    <br>    
+    <br>
+
+    <h1>¿Cuál es la diferencia entre una declaración de función y una expresión de función?</h1>
+    <br>
+    <p>
+        En JavaScript hay dos maneras comunes de definir funciones: mediante declaraciones de funci&oacute;n y mediante expresiones de funci&oacute;n. Las diferencias entre ambas recaen en c&oacute;mo son tratadas por el int&eacute;rprete de JavaScript y c&oacute;mo se comportan en el c&oacute;digo.
+    </p>
+    <p><strong>Declaraci&oacute;n de funci&oacute;n:</strong></p>
+    <ul>
+        <li>Se utiliza la palabra clave <strong>function.</strong></li>
+        <li>Se define un nombre para la funci&oacute;n.</li>
+        <li>Se puede usar antes de ser definida.</li>
+        <li>Se asigna a un objeto o a la variable global.</li>
+    </ul>
+    <h3>Ejemplo</h3>
+    <p>
+        <span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>function saludar () {</span><br><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>&nbsp; &nbsp; console.log(&quot;&iexcl;Hola!&quot;);</span><br><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>}</span><br><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>saludar();</span>
+    </p>
+    <br>
+    <p>
+        <strong>Expresi&oacute;n de funci&oacute;n:</strong>
+    </p>
+    <ul>
+        <li>Se define como una expresi&oacute;n dentro de otra expresi&oacute;n.</li>
+        <li>No es necesario un nombre.</li>
+        <li>No se puede usar antes de ser definida.</li>
+        <li>Se puede asignar a una variable o utilizar como valor inmediato.</li>
+    </ul>
+    <h3>Ejemplo</h3>
+    <p><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>const saludar = function () {</span><br><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>&nbsp; &nbsp; console.log(&quot;&iexcl;Hola!&quot;);</span><br><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>}</span><br><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>saludar();</span></p>
+    <br>
+    <p>
+        Las declaraciones de funci&oacute;n se utilizan para definir funciones que se van a utilizar en diferentes partes del c&oacute;digo, mientras que las expresiones de funci&oacute;n se utilizan para definir funciones que se van a utilizar de forma puntual o dentro de otra expresi&oacute;n.
+    </p>
+    <p>
+        Se recomiend usar declaraciones de funci&oacute;n para las funciones principales del programa y, expresiones de funci&oacute;n, para peque&ntilde;as funciones o que solo se vayan a utilizar una vez.
+    </p>
+    <h3>Enlaces de interés</h3>
+    <p>
+        <a href="https://www.freecodecamp.org/news/when-to-use-a-function-declarations-vs-a-function-expression-70f15152a0a0/">Function declaration VS function expression</a>  
+    </p>
+    <br>    
+    <br>
+
+    <h1>¿Qué es la palabra clave "this" en JS?</h1>
+    <br>
+    <p>La palabra clave <strong>this</strong> en JavaScript se utiliza para referirse al objeto actual en el contexto de una funci&oacute;n. El valor de <strong>this</strong> cambia dependiendo de c&oacute;mo y d&oacute;nde se llame a la funci&oacute;n.</p>
+    <p>En <strong>m&eacute;todos de objetos</strong>, this hace referencia al objeto en el que se llama al m&eacute;todo.</p>
+    <h3>Ejemplo</h3>
+    <p><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>const persona = {</span><br><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>&nbsp; &nbsp; nombre: &quot;Mikel&quot;,</span><br><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>&nbsp; &nbsp; saludar() {</span><br><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>&nbsp; &nbsp; &nbsp; &nbsp; console.log(&quot;Hola, me llamo ${this.nombre}&quot;);</span><br><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>&nbsp; &nbsp; },</span><br><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>};</span></p>
+    <br>
+    <p>En <strong>funciones normales</strong> hace referencia al objeto global.</p>
+    <h3>Ejemplo</h3>
+    <p><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>function saludar(){</span><br><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>&nbsp; &nbsp; console.log(&quot;Hola, soy&nbsp;</span><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>${this.nombre}&quot;);</span><br><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>}</span></p>
+    <br>
+    <p>
+        En <strong>funciones flecha</strong> this no cambia y hereda el valor de la funci&oacute;n padre.
+    </p>
+    <h3>Ejemplo</h3>
+    <p>
+        <span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>const persona = {&nbsp;</span><br><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>&nbsp; &nbsp; nombre: &quot;Mikel&quot;,</span><br><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>&nbsp; &nbsp; saludar() {</span><br><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>&nbsp; &nbsp; &nbsp; &nbsp; const flecha = () =&gt; console.log(&quot;Hola, mi nombre es ${this.nombre}&quot;);</span><br><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>&nbsp; &nbsp; &nbsp; &nbsp; flecha();</span><br><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>&nbsp; &nbsp; &nbsp;},</span><br><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>};</span><br><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(247, 244, 242); background-color: rgb(27, 63, 54);'>persona.saludar();&nbsp;</span><span style='font-family: "Lucida Console", Monaco, monospace; font-size: 14px; color: rgb(87, 170, 149); background-color: rgb(27, 63, 54);'>// Imprime &quot;Hola, mi nombre es Mikel&quot;</span>
+    </p>
+    <h3>Enlaces de interés</h3>
+    <p>
+        <a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/this">Documentación sobre 'this' en JavaScript</a>
+        <br>
+        <a href="https://www.freecodecamp.org/espanol/news/la-guia-completa-sobre-this-en-javascript/">freeCodeCamp - Guía sobre 'this'</a>
+    </p>
+
+</body>
+</html>
